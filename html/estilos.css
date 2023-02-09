@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 0.588);
+}
+
+header {
+    height: 300px;
+    width: 100%;
+    background-color: rgba(0, 0, 188, 0.786);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nombre_apellido {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto {
+    border-radius: 50%;
+    /* display: inline-block; */
+    margin: 10px;
+}
+
+.wave {
+    position: absolute;
+
+    width: 100%;
+    bottom: 0;
+    /* background-color: rgba(0, 0, 188, 0.786); */
+    
+}
